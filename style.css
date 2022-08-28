@@ -60,6 +60,7 @@ img {
 #footer {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 #about {
@@ -85,4 +86,18 @@ img {
 form {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  
+}
+
+fieldset {
+  
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+}
+
+textarea {
+  width: 100%;
+
 }
