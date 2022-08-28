@@ -5,13 +5,14 @@ html, body {
 
 #navBar {
   display: flex;
-  flex-direction: row;
-  height: 100px;
+  flex-direction: column;
+  height: 25%;
   width: 100%;
 }
 
 #homeButton {
   flex: 1;
+  height: 75%;
 }
 
 img {
@@ -20,23 +21,29 @@ img {
 }
 
 #toolBar {
-  flex: 3;
+  flex: 1;
   text-align: center;
 }
 
 #action {
   display: flex;
   flex-direction: row;
+  padding: 0;
+  height: 25%;
+  width: 100%;
+  
 }
 
 #jobSeekers {
   flex: 1;
   text-align: center;
+  height: 25%;
 }
 
 #employers {
   flex: 1;
   text-align: center;
+  height: 25%;
 }
 
 #info {
@@ -61,6 +68,7 @@ img {
   display: flex;
   flex-direction: row;
   text-align: center;
+  height: 25%;
 }
 
 #about {
